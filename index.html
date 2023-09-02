@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Effizient Survey Form</title>
+  <link href="C:\Users\keerthi\Downloads\SOP\style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="logo"> <img src="C:\Users\keerthi\Downloads\SOP\images\logo.png"></div>
+  <div class="heading">
+    <h1 id="head">Statement of Purpose Generation Tool</h1>
+    <p id="subheading">Fill this questionaire for the student.<br> After submitting, you will receive an email at the
+      email address that you have provided with a Statement of Purpose customized for you.<br>You can use and modify
+      that as per your needs. </p>
+  </div>
+  <form action="" method="POST">
+    <div>
+      <label for="email"> Email </label><br><br>
+      <input type="text" id="email" value="" required class="box"><br><br>
+      <label  for="name"> Full Name </label><br><br>
+      <input type="text" id="name" value="" class="box" required><br><br>
+      <label for="Age"> Age </label><br><br>
+      <input type="text" id="age" value="" class="box" required><br><br>
+      <label for="education"> Highest Level of Education </label><br><br>
+      <div>
+        <select class="box">
+          <option name="choose">Choose your highest education</option>
+          <option value="grade 12">Grade 12</option>
+          <option value="diploma">Diploma</option>
+          <option value="bachelor">Bachelor's Degree</option>
+          <option value="master">Master's Degree</option>
+          <option value="phd">PhD</option>
+        </select>
+      </div><br><br>
+      <label for="institute">Institute where you completed your highest level of education ?</label><br><br>
+      <input type="text" id="institute" class="box" required><br><br>
+      <label for="study">What did you study ?</label><br><br>
+      <input type="text" id="study" class="box" required><br><br>
+      <label for="experience">Do you have any relevant work experience ?</label><br><br>
+      <p> Write None if no work experience. Provide the following details if yes:</p>
+      <ol><br>
+        <li>Job Title </li><br>
+        <li>Company Name </li><br>
+        <li>Job duties</li><br>
+      </ol>
+      <p>Sample Answer: I worked as a Sales Manager at Effizient Immigration Inc from Jan 2022 till Feb 2023. In this
+        role, I managed sales operations, reaching out to leads, lead the outreach program, ensured meeting monthly
+        targets.</p><br>
+      <input type="text" id="experience" class="box" required><br><br>
+      <label for="institute2">What institute did you get admitted to in Canada ?</label><br><br>
+      <input type="text" id="institute2" class="box" required><br><br>
+      <label for="study2">What is your program of study in Canada ?</label><br><br>
+      <input type="text" id="study2" class="box" required><br><br>
+      <label for="country">Which country are you applying from ?</label><br><br>
+      <input type="text" id="country" class="box" required><br><br>
+      <label for="goals">What are your future goals ?</label><br><br>
+      <input type="text" id="goals" class="box" required><br><br>
+      <label for="listening">English Scores - Listening</label><br><br>
+      <input type="text" id="listening" class="box" required><br><br>
+      <label for="reading">English Scores - Reading</label><br><br>
+      <input type="text" id="reading" class="box" required><br><br>
+      <label for="speaking">English Scores - Speaking</label><br><br>
+      <input type="text" id="speaking" class="box" required><br><br>
+      <label for="writing">English Scores - Writing</label><br><br>
+      <input type="text" id="writing" class="box" required><br><br>
+      <label for="pay">Did you pay your first year tuition?</label><br><br>
+      <input type="radio" id="pay" checked name="pay">&nbsp;&nbsp;&nbsp;Yes<br><br>
+      <input type="radio" id="pay" name="pay">&nbsp;&nbsp;&nbsp;No<br><br>
+      <label for="fee">How much tuition fee did you pay ?</label><br><br>
+      <input type="text" id="fee" class="box" required><br><br>
+      <label for="gic">Did you do a GIC ?</label><br><br>
+      <input type="radio" id="gic" checked name="gic">&nbsp;&nbsp;&nbsp;Yes<br><br>
+      <input type="radio" id="gic" name="gic">&nbsp;&nbsp;&nbsp;No<br><br>
+      <label for="gicpay">How much did you pay towards GIC?</label><br><br>
+      <input type="text" id="gicpay" class="box" required><br><br>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+</body>
+
+</html>
